@@ -13,7 +13,6 @@ import java.util.List;
 public class PostService {
     private final PostRepository postRepository;
 
-    // Repository 의존성 생성자 주입
     public PostService(PostRepository postRepository) {
         this.postRepository = postRepository;
     }
